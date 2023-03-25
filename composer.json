@@ -1,0 +1,25 @@
+{
+	"name": "antogno/gitinfo",
+	"description": "GitInfo is a tool that lets you get information about the current Git repository",
+	"type": "library",
+	"keywords": [
+		"git",
+		"tool"
+	],
+	"license": "CC0-1.0",
+	"autoload": {
+		"psr-4": {
+			"antogno\\GitInfo\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Antonio Granaldi",
+			"email": "tonio.granaldi@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=7.0.0"
+	}
+}
